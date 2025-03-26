@@ -145,6 +145,6 @@ shinyApp(ui = ui, server = server)
 
 #CONNECTING TO SHINYAPP.IO
 library(rsconnect)
-rsconnect::setAccountInfo(name='bobachan', token='8F1BA7DBFD943D23A427083B1B899612', secret='DyQ/pbwCAEnk1E9BpZUkChhku3MtpfCBpafvn1zP')
+rsconnect::setAccountInfo(name='your-account-name', token='your-token', secret='your-secret')
 rsconnect::deployApp("C:/Users/syasy/OneDrive/Documents/Data Science/GoodReadsRating")
 
